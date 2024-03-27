@@ -1,0 +1,400 @@
+@media (max-width: 1290px) {
+
+  .header__content {
+    max-width: 335px;
+  }
+
+  .header__title {
+    font-size: 36px;
+  }
+
+
+  .header__btn-wrapper {
+    flex-direction: column;    
+  }
+
+  .header__content {
+    padding-top: 175px;
+  }
+
+  .header__btn {
+    padding: 10px 40px;    
+    max-width: 100%;
+    max-height: 47px;
+  }
+
+  .more-about {
+    background-color: var(--color-white);
+    opacity: 0.9;
+  }
+
+  .support-btn {
+    margin: 0;
+    margin-bottom: 14px;    
+  }
+
+  .stages__img {
+    bottom: -2.9rem;
+  }
+}
+
+@media (max-width: 795px) {
+  .container {  
+    padding: 0px 20px;  
+  }
+
+  .header__top {
+    min-height: 773px;
+  }
+
+  .header__logo-img {
+    width: 210px;
+    padding-top: 18px;
+  }
+
+  .header__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 110%;   
+  }
+
+  .header__title-center {
+    margin-left: 63px;
+  }
+
+  .header__content {
+    padding-top: 91px;
+  }
+
+  .header__desc {
+    text-align: left;
+    max-width: 335px;
+    margin-bottom: 35px;
+  }
+
+  .header__btn-wrapper{
+    margin-bottom: 34px;
+  } 
+
+  .header__inner {
+    padding: 0;
+    right: 46px;
+    bottom: -60%;
+  }
+ 
+  .header__inner-city {  
+    max-width: 875px; 
+    right: -153px;
+    bottom: -7px;
+  }
+
+  .header__inner-sun {
+    max-width: 351px; 
+    bottom: 37px;
+    right: -26px;
+  }
+  
+  .header__inner-king {
+    max-width: 61px; 
+    bottom: 100px;
+    right: 206px;
+  }
+  
+  .header__inner-queen {
+    max-width: 61px; 
+    bottom: 155px;
+    right: 36px;
+  }
+  
+  .header__inner-horse {
+    max-width:100px; 
+    bottom: -7px;
+    right: 84px;
+  } 
+  
+  .header__inner-pawn {
+    display: none;
+  }
+
+  .header__background {
+    min-height: 773px;
+  }
+
+  .runningline__section {
+    padding: 10px 0;
+  }
+
+  .runningline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+  }
+
+  .support {
+    padding-top: 22px;
+    padding-bottom: 24px;
+  }
+
+  .support-top {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .support__title {    
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 135%;
+    flex-basis: 0;
+  }
+
+  .support-top__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .support-top__title-descr {
+    flex-basis: 25.7rem;
+  }
+
+  .support__title-img {
+    position: absolute;
+    width: 335px;
+    height: 212px;
+    top: 203px;
+  }
+
+  .support-bottom__title {
+    margin-bottom: 23px;
+}
+
+  .support-bottom {
+    flex-direction: column;
+  }
+
+  .support-bottom__img {
+    width: 335px;
+    height: 402px;
+  }
+
+  .support-bottom__table {
+    margin-bottom: 23px;
+  }
+
+  .table__tr {
+    padding: 0;    
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table__td {
+    padding: 0;  
+  }
+
+  .table__td-left {
+    border-right: none;
+    padding-bottom: 11px;
+    padding-top: 16px;
+  }
+
+  .table__td-right {
+    padding: 0;
+    padding-bottom: 15px;
+  }
+ 
+
+  .table__td-bl-right {
+    padding-bottom: 0;
+  }
+
+  .table__td:nth-child(1) {
+    border-bottom: none;
+  }
+
+  .table__tr-bl {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid var(--color-light-gray);
+  }
+
+  .table__td-bl-right {
+    border-bottom: none;
+    padding-left: 5px; 
+    padding-bottom: 11px;
+    padding-top: 16px;   
+  }
+
+  .table__td-crossedout {
+    margin-right: 8px;
+  }
+
+  .support-bottom__descr {
+    font-size: 18px;
+  }
+
+  .stages {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
+
+  .stages__tittle {
+    font-size: 36px;
+    line-height: 110%;
+    width: auto;
+    margin-bottom: 145px;
+    min-height: 176px;
+  }
+
+  .stages__title-quote {
+    font-size: 18px;
+    width: auto;
+    margin-top: 15px;
+  }
+
+  .stages__img {
+    bottom: 0;
+    top: 293px;
+    width: 345px;
+    height: 186px;
+    left: 27px;
+    transform: rotate(-5deg);    
+  }
+
+  .stages__list {
+    display: none;
+  }
+  
+  .stages__list-mobile {
+    display: flex;  
+    margin-bottom: 28px;  
+    overflow-x: hidden;
+  }
+
+  .stages__item {
+    margin-right: 20px;
+    min-width: 335px;
+    height: 300px;
+    padding: 68px 20px 0px 72px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .stages__item::before {
+    content: none;
+  }
+
+  .stages__item-mobile {
+    margin: 0;
+  }
+
+  .stages__item-mobile::before {
+    position: absolute;
+    content: "1";
+    padding: 5px 15px;
+    border-radius: 60px;
+    font-family: "Golos Text";
+    font-size: 20px;
+    font-style: normal;
+    line-height: 120%;
+    text-align: center;
+    top: 62px;
+    left: 18px;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-white);
+    font-weight: 700;
+    color: var(--color-eerie-black);
+  }
+
+  .stages__item-mobile-p1 {
+    margin-bottom: 28px;
+  }
+
+  .stages__item-mobile-p2::before {
+    content: "2";
+    top: 178px;
+  }
+
+  .stages__item-mobile-p3::before {
+    content: "3";
+  }
+
+  .stages__item-mobile-p4::before {
+    content: "4";    
+  }
+
+  .stages__item-mobile-p4 {
+    margin-bottom: 28px;
+  }
+
+  .stages__item-mobile-p5::before {
+    content: "5";
+    top: 133px;
+  }
+
+  .stages__item-mobile-p6::before {
+    content: "6";
+  }
+
+  .stages__item-mobile-p7::before {
+    content: "7";
+  }
+
+  .stages__slider-buttons {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;   
+    padding: 0 78px; 
+    min-width: 178px;
+  }
+
+  .players {
+    position: relative;
+    padding-top: 68px;
+    padding-bottom: 178px;
+  }
+
+  .players__title {
+    font-size: 36px;
+    line-height: 110%;
+  }
+
+  .players_head {
+    margin-bottom: 40px;
+  }
+
+  .slider-buttons {
+    position: absolute;
+    bottom: 97px;
+    left: 123px;
+  }
+
+  .pagination-slide {
+    padding: 9.5px 11px;
+  }
+  
+  .players-card {
+    min-width: 335px;    
+  }
+
+  .players-card__img {
+    width: 244px;
+    height: 244px;
+    align-items: center;
+    text-align: center;
+  }
+
+   .slider-btn svg  {
+    width: 36px;
+    height: 36px;
+   }
+
+   .footer__content {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-right: 0;
+    padding-left: 0;
+   }
+
+ 
+
+}
